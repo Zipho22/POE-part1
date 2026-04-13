@@ -1,0 +1,91 @@
+-------------------------------------------------------------------------------
+Test set: TestClasses.TestChatApp
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 0, Errors: 10, Skipped: 0, Time elapsed: 0.146 s <<< FAILURE! -- in TestClasses.TestChatApp
+TestClasses.TestChatApp.testReturnLoginStatus_Success -- Time elapsed: 0.048 s <<< ERROR!
+java.lang.UnsupportedOperationException: Not supported yet.
+	at TestClasses.Login.<init>(Login.java:14)
+	at TestClasses.TestChatApp.createValidUser(TestChatApp.java:22)
+	at TestClasses.TestChatApp.testReturnLoginStatus_Success(TestChatApp.java:117)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
+TestClasses.TestChatApp.testCellPhoneIncorrectlyFormatted_ReturnsErrorMessage -- Time elapsed: 0.005 s <<< ERROR!
+java.lang.UnsupportedOperationException: Not supported yet.
+	at TestClasses.Login.<init>(Login.java:14)
+	at TestClasses.TestChatApp.testCellPhoneIncorrectlyFormatted_ReturnsErrorMessage(TestChatApp.java:90)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
+TestClasses.TestChatApp.testUsernameIncorrectlyFormatted_ReturnsErrorMessage -- Time elapsed: 0.005 s <<< ERROR!
+java.lang.UnsupportedOperationException: Not supported yet.
+	at TestClasses.Login.<init>(Login.java:14)
+	at TestClasses.TestChatApp.testUsernameIncorrectlyFormatted_ReturnsErrorMessage(TestChatApp.java:42)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
+TestClasses.TestChatApp.testLoginFailed -- Time elapsed: 0.003 s <<< ERROR!
+java.lang.UnsupportedOperationException: Not supported yet.
+	at TestClasses.Login.<init>(Login.java:14)
+	at TestClasses.TestChatApp.createValidUser(TestChatApp.java:22)
+	at TestClasses.TestChatApp.testLoginFailed(TestChatApp.java:110)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
+TestClasses.TestChatApp.testReturnLoginStatus_Failed -- Time elapsed: 0.003 s <<< ERROR!
+java.lang.UnsupportedOperationException: Not supported yet.
+	at TestClasses.Login.<init>(Login.java:14)
+	at TestClasses.TestChatApp.createValidUser(TestChatApp.java:22)
+	at TestClasses.TestChatApp.testReturnLoginStatus_Failed(TestChatApp.java:126)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
+TestClasses.TestChatApp.testPasswordDoesNotMeetComplexity_ReturnsErrorMessage -- Time elapsed: 0.007 s <<< ERROR!
+java.lang.UnsupportedOperationException: Not supported yet.
+	at TestClasses.Login.<init>(Login.java:14)
+	at TestClasses.TestChatApp.testPasswordDoesNotMeetComplexity_ReturnsErrorMessage(TestChatApp.java:66)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
+TestClasses.TestChatApp.testLoginSuccessful -- Time elapsed: 0.002 s <<< ERROR!
+java.lang.UnsupportedOperationException: Not supported yet.
+	at TestClasses.Login.<init>(Login.java:14)
+	at TestClasses.TestChatApp.createValidUser(TestChatApp.java:22)
+	at TestClasses.TestChatApp.testLoginSuccessful(TestChatApp.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
+TestClasses.TestChatApp.testCellPhoneCorrectlyFormatted_ReturnsSuccessMessage -- Time elapsed: 0.004 s <<< ERROR!
+java.lang.UnsupportedOperationException: Not supported yet.
+	at TestClasses.Login.<init>(Login.java:14)
+	at TestClasses.TestChatApp.createValidUser(TestChatApp.java:22)
+	at TestClasses.TestChatApp.testCellPhoneCorrectlyFormatted_ReturnsSuccessMessage(TestChatApp.java:80)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
+TestClasses.TestChatApp.testUsernameCorrectlyFormatted_ReturnsSuccessMessage -- Time elapsed: 0.002 s <<< ERROR!
+java.lang.UnsupportedOperationException: Not supported yet.
+	at TestClasses.Login.<init>(Login.java:14)
+	at TestClasses.TestChatApp.createValidUser(TestChatApp.java:22)
+	at TestClasses.TestChatApp.testUsernameCorrectlyFormatted_ReturnsSuccessMessage(TestChatApp.java:31)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
+TestClasses.TestChatApp.testPasswordMeetsComplexity_ReturnsSuccessMessage -- Time elapsed: 0.002 s <<< ERROR!
+java.lang.UnsupportedOperationException: Not supported yet.
+	at TestClasses.Login.<init>(Login.java:14)
+	at TestClasses.TestChatApp.createValidUser(TestChatApp.java:22)
+	at TestClasses.TestChatApp.testPasswordMeetsComplexity_ReturnsSuccessMessage(TestChatApp.java:56)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
